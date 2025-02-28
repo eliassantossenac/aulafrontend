@@ -1,7 +1,7 @@
 /* reset de página para evitar configurações do navegador */
 body {
     font-family: Arial, sans-serif;
-    margin-top: 200px;
+    margin-top: 0;
     padding: 0;
     text-align: center;
     background-color: #f5f5f5;
@@ -19,7 +19,7 @@ header img {
 }
 
 /* estilização do menu */
-nav ul {
+/*nav ul {
    padding: 0;
    background-color: #0066cc;
    margin:0; 
@@ -30,11 +30,16 @@ nav ul li{
     padding: 20px;
 }
 
-nav ul li a {
+
+nav a {
     color: #fff;
     text-decoration: none;
     font-weight: bold;
-}
+} */
+
+.nav-link {
+    color: #fff;
+} 
 
 /* estilizando a seção de pacote */
 .pacote {
